@@ -1,0 +1,32 @@
+1. import random
+  random_number=random.randint(2,10)
+  print("Random number:",random_number)
+
+sample output and input:
+Random number: 8
+
+2.
+import datetime
+current_datetime=datetime.datetime.now()
+print("current date and time:",current_datetime)
+
+sample output and input:current date and time: 2025-05-31 02:07:25.962004
+
+3.
+import math
+number=25
+sqrt=math.sqrt(number)
+print("square root:",sqrt)
+
+sample output and input:
+square root: 5.0
+
+4.
+import math
+factorial=math.factorial(5)
+print("factorial:",factorial)
+
+sample output and input:
+factorial: 120
+
+5.
