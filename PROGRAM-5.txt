@@ -1,0 +1,87 @@
+program_5:
+
+
+1.
+   
+class Car:
+    def __init__(self, brand, speed):
+        self.brand = brand
+        self.speed = speed
+
+    def display(self):
+        print(f"Brand: {self.brand}, Speed: {self.speed} km/h")
+    def create_car():
+        car1 = Car("Toyota", 180)
+        return car1
+my_car = Car.create_car()
+my_car.display()
+
+output:
+
+Brand: Toyota, Speed: 180 km/h
+
+2.
+
+
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = marks
+
+    def print_student_info(self):
+        print(f"Name: {self.name}, Marks: {self.marks}")
+s1 = Student("Tillu", 92)
+s1.print_student_info()
+
+output:
+Name: Tillu, Marks: 92
+
+3.
+
+
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return 3.14 * self.radius * self.radius
+    def get_circle(r):
+        return Circle(r)
+c = Circle.get_circle(5)
+print("Area of circle:", c.area())
+
+output:
+Area of circle: 78.5
+
+4.
+
+
+class Book:
+    def __init__(self, title):
+        self.title = title
+
+    def create_book_list():
+        return [Book("Python 101"), Book("AI Basics"), Book("Data Science")]
+
+books = Book.create_book_list()
+for b in books:
+    print("Book title:", b.title)
+
+output:
+Book title: Python 101
+Book title: AI Basics
+Book title: Data Science
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
